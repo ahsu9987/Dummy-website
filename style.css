@@ -72,13 +72,13 @@ a
     /* margin-left: 200px; */
     height:1000px;
     width: 1522px;
-    opacity: 0.4;
+    /* opacity: 0.4; */
 
 }
-.img-1:hover
+/* .img-1:hover
 {
     opacity: 1;
-}
+} */
 
 .bikes
 {
@@ -184,4 +184,134 @@ label
 .heading p
 {
     line-height: 1.8;
+}
+
+@media only screen and (max-width: 567px)
+{
+    #box1
+{
+   padding-left: 50px;
+   width: 100%;
+   
+}
+.flex-1
+{
+gap: 10px;
+font-size: 10px;
+}
+.hr1
+{
+    width: 100%;
+}
+.space
+{
+    padding-left: 10px;
+}
+.img-1
+{
+    height:400px;
+    width: 100%;
+
+}
+.container h2
+{
+  font-size: 25px;
+}
+.container p
+{
+line-height: 1;
+letter-spacing: 0;
+}
+.bikes
+{
+    width: 250px;
+    float: right;
+}
+.head1
+{
+  font-size: 20px;
+}
+.first-img
+{
+   height: 80px;
+   width: 80px;
+   margin-left: 60px;
+   margin-right: 10px
+}
+.second-img
+{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+ 
+}
+.third-img
+{
+    height: 80px;
+    width: 80px;
+}
+.heading p
+{
+    line-height: 1;
+    width: 100%;
+}
+
+}
+@media only screen and (min-width: 568px) and (max-width:1350px)
+{
+    
+        #box1
+    {
+       padding-left: 150px;  
+    }
+    .flex-1
+    {
+    gap: 50px;
+    font-size: 10px;
+    }
+    .space
+    {
+        padding-left: 50px;
+    }
+    .img-1
+    {
+        height:600px;
+        width: 100%;
+    }
+    .container h2
+    {
+      font-size: 25px;
+    }
+    .container p
+    {
+    line-height: 1;
+    }
+    .bikes
+    {
+        width: 350px;
+    }
+    .head1
+    {
+      font-size: 25px;
+    }
+    .first-img
+    {
+       height: 150px;
+       width: 150px;
+       margin-left: 130px;
+       margin-right: 30px
+    }
+    .second-img
+    {
+        height: 150px;
+        width: 150px;
+        margin-right: 30px;
+     
+    }
+    .third-img
+    {
+        height: 150px;
+        width: 150px;
+    }
+ 
 }
